@@ -1,0 +1,15 @@
+Home	0.0666666667	Index,Search,About
+Index	0.0666666667	Home,Search,Docs
+Search	0.0666666667	Index,Data,News
+Data	0.0666666667	Index,Hadoop,Cloud
+Hadoop	0.0666666667	MapReduce,Data,HBase
+MapReduce	0.0666666667	Hadoop,Spark,Data
+Spark	0.0666666667	MapReduce,Cloud,AI
+HBase	0.0666666667	Hadoop,Data,Docs
+Cloud	0.0666666667	Data,AI,News
+AI	0.0666666667	Data,Cloud,Spark
+Blog	0.0666666667	Home,News,About
+News	0.0666666667	Home,Search,Blog
+Docs	0.0666666667	Home,Index,HBase
+About	0.0666666667	Home,Contact
+Contact	0.0666666667	Home,About
